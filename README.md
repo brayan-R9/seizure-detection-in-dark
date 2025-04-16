@@ -9,6 +9,8 @@ The proposed solution introduces a real-time seizure detection system optimized 
 movements. A deep learning model (VSViG) then analyzes these patches and keypoint sequences toclassify seizures based on spatiotemporal motion patterns. If seizure probability exceeds a defined threshold, the system triggers real-time alerts via sound, desktop notifications, and a flashing GUI.
 The method ensures non-invasive, real-time, and reliable seizure detection, making it suitable for clinical and home-based monitoring, where traditional EEG-based systems may not be practical.
 
+The Full report of the project has been included in the repository as "Project_Report_Document.pdf"
+
 
 Citation :
 
