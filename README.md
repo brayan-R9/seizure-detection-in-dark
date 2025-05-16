@@ -11,6 +11,30 @@ The method ensures non-invasive, real-time, and reliable seizure detection, maki
 
 The Full report of the project has been included in the repository as "Project_Report_Document.pdf"
 
+Dark_video_input :
+![Screenshot 2025-05-16 134912](https://github.com/user-attachments/assets/a0672562-ac08-4885-b6fc-00f7ddd8abed)
+
+preprocessed and denoised output :
+![Screenshot 2025-05-16 135129](https://github.com/user-attachments/assets/2ef45eb4-054c-4e9e-be76-719a43b6edc3)
+This image shows the output after the video frames have been preprocessed and denoised to improve visibility.
+
+keypoint detection :
+![Screenshot 2025-05-16 134625](https://github.com/user-attachments/assets/48476de3-bb34-4408-8ea0-7c1c9aafff2d)
+Image shows the keypoints being extracted using openpose for pattern analysis to generate seizure probabilities.
+
+final probability generation :
+![Screenshot 2025-05-16 134651](https://github.com/user-attachments/assets/574263b9-a98d-4cf0-b173-99e2a6cf9e18)
+Final seizure probability generated from the input video using our model after analyzing features and patterns.
+
+Noise comparison :
+![Screenshot 2025-05-16 134316](https://github.com/user-attachments/assets/ee073403-0b7a-4f09-bb8f-df964c0be728)
+The graph shows the noise level difference between input video and preprocessed video, where we can observe that the noise has been reduced to a good extent in the processed output.
+
+seizure probability graph :
+![Screenshot 2025-05-16 134325](https://github.com/user-attachments/assets/f58d4edc-b74d-43a0-a304-8f8c11f2a94a)
+Seizure probability generated over the duration of the input video. We can see the probability rises with respect to time signifying that there is a high chance of seizure.
+
+
 
 Citation :
 
